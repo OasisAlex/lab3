@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.zip.CheckedInputStream;
+
+class listfiltercheck implements StringChecker {
+    public boolean checkString(String s) {
+        
+    }
+
+}
 public class ListTests{
     @Test 
 	public void testFilter1() {
