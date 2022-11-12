@@ -9,7 +9,7 @@ class listfiltercheck implements StringChecker {
     public boolean checkString(String s) {
         
     }
-
+    
 
 public class ListTests{
     @Test 
@@ -29,4 +29,5 @@ public class ListTests{
         assertEquals(result, ListExamples.merge(list1, list2));
 	}
 
+    }
 }
