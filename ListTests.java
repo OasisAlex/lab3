@@ -5,14 +5,15 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.zip.CheckedInputStream;
 
-class listfiltercheck implements StringChecker {
+/*class listfiltercheck implements StringChecker {
     public boolean checkString(String s) {
         
-    }
+    }*/
 
-}
+
 public class ListTests{
     @Test 
+    
 	public void testFilter1() {
         List<String> list1 = List.of("a", "b", "g");
         List<String> list2 = List.of("c", "f", "w");
